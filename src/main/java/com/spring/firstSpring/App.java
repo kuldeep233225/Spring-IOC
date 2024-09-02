@@ -13,7 +13,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         
-        ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("com/spring/firstSpring/config.xml");
         StudentEntity student45=(StudentEntity) context.getBean("student45");
         System.out.println(student45);
     }
