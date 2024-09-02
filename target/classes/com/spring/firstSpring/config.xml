@@ -9,15 +9,11 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<bean class = "com.spring.firstSpring.StudentEntity" name = "student45" >
-	<property name="studentId">
-	<value>10</value>
-	</property>
-	<property name="studentName">
-	<value>Soniya</value>
-	</property>
-	<property name="studentAddress">
-	<value>Dubai</value>
-	</property>
+	<property name="studentId" value="20"/>
+	
+	<property name="studentName" value="moniya"/>
+
+	<property name="studentAddress" value = "dubai" />
 	
 	</bean>
  </beans>
